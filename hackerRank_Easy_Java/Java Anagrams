@@ -14,7 +14,6 @@ public class Solution {
         // Create an array to count the frequency of each character
         int[] charCount = new int[26];
 
-        // Count characters in the first string
         for (char c : a.toCharArray()) {
             charCount[c - 'a']++;
         }
